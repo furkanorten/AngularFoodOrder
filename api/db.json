@@ -1,0 +1,168 @@
+{
+  "users": [
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Burger Restaurant",
+      "address": "Balgat Mah. Çankaya/Ankara",
+      "phone": "03124755897",
+      "imageUrl": "burgerRes.jpg",
+      "products": [
+        {
+          "name": "Hamburger",
+          "imageUrl": "hamburger.webp",
+          "content": "Burger meat, pickles, lettuce, onions",
+          "price": 10,
+          "id": 1
+        },
+        {
+          "name": "Cheeseburger",
+          "imageUrl": "cheeseburger.png",
+          "content": "Burger meat, cheddar cheese, pickles, lettuce, onions",
+          "price": 12,
+          "id": 2
+        },
+        {
+          "name": "Chips",
+          "imageUrl": "chips.jpg",
+          "content": "Fried potatoes",
+          "price": 3,
+          "id": 3
+        },
+        {
+          "name": "Coke",
+          "imageUrl": "coke.jpg",
+          "content": "Coke",
+          "price": 3,
+          "id": 4
+        },
+        {
+          "name": "Water",
+          "imageUrl": "water.jpg",
+          "content": "Water",
+          "price": 1,
+          "id": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pizza Restaurant",
+      "address": "Çukurambar Mah. Çankaya/Ankara",
+      "phone": "03127438316",
+      "imageUrl": "pizzaRes.webp",
+      "products": [
+        {
+          "name": "Pizza",
+          "imageUrl": "pizza.jpg",
+          "content": "Mozarella, sausage, salami, mushrooms, olive, corn",
+          "price": 12,
+          "id": 1
+        },
+        {
+          "name": "Nuggets",
+          "imageUrl": "nuggets.png",
+          "content": "Fried chicken pieces",
+          "price": 4,
+          "id": 2
+        },
+        {
+          "name": "Coke",
+          "imageUrl": "coke.jpg",
+          "content": "Coke",
+          "price": 3,
+          "id": 3
+        },
+        {
+          "name": "Lemonade",
+          "imageUrl": "lemonade.jpg",
+          "content": "Lemonade",
+          "price": 2,
+          "id": 4
+        },
+        {
+          "name": "Water",
+          "imageUrl": "water.jpg",
+          "content": "Water",
+          "price": 1,
+          "id": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Kebab Restaurant",
+      "address": "Çiğdem Mah. Çankaya/Ankara",
+      "phone": "03125782448",
+      "imageUrl": "kebabRes.avif",
+      "products": [
+        {
+          "name": "Adana Kebab",
+          "imageUrl": "adana.jpg",
+          "content": "With roasted pepper, roasted tomato, onion and rice",
+          "price": 13,
+          "id": 1
+        },
+        {
+          "name": "Lahmacun",
+          "imageUrl": "lahmacun.jpg",
+          "content": "Ground beef, tomato, pepper, onion with parsley and lemon",
+          "price": 5,
+          "id": 2
+        },
+        {
+          "name": "Ayran",
+          "imageUrl": "ayran.jpg",
+          "content": "Ayran",
+          "price": 2,
+          "id": 3
+        },
+        {
+          "name": "Water",
+          "imageUrl": "water.jpg",
+          "content": "Water",
+          "price": 1,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Dessert Restaurant",
+      "address": "Bahçelievler Mah. Çankaya/Ankara",
+      "phone": "03127445632",
+      "imageUrl": "dessertRes.jpg",
+      "products": [
+        {
+          "name": "Cheesecake",
+          "imageUrl": "cheesecake.jpg",
+          "content": "Cream cheese, sour cream, sugar, vanilla extract, lemon juice",
+          "price": 9,
+          "id": 1
+        },
+        {
+          "name": "Tiramisu",
+          "imageUrl": "tiramisu.webp",
+          "content": "Ladyfingers, mascarpone, coffee, sugar, vanilla extract, whipped cream",
+          "price": 7,
+          "id": 2
+        },
+        {
+          "name": "Brownie",
+          "imageUrl": "brownie.jpg",
+          "content": "Cocoa, vanilla extract, sugar",
+          "price": 8,
+          "id": 3
+        },
+        {
+          "name": "Water",
+          "imageUrl": "water.jpg",
+          "content": "Water",
+          "price": 1,
+          "id": 4
+        }
+      ]
+    }
+  ]
+}

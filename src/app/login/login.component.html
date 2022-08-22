@@ -1,0 +1,24 @@
+<div class="mt-5 container d-flex flex-column align-items-center border border-3 border-danger w-25">
+  <h1 class="mt-4 text-danger fw-bold">Login</h1>
+  <form class="w-75 d-flex flex-column align-items-center" [formGroup]="loginForm">
+    <mat-form-field class="w-100" appearance="outline">
+      <mat-label>E-mail</mat-label>
+      <input matInput formControlName="email">
+      <mat-error>
+        <p *ngIf="control['email'].errors && control['email'].errors['required']">Email is required</p>
+        <p *ngIf="control['email'].errors && control['email'].errors['email']">Invalid email format</p>
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field class="w-100" appearance="outline">
+      <mat-label>Password</mat-label>
+      <input type="password" matInput formControlName="password">
+      <mat-error>
+        <p *ngIf="control['password'].errors && control['password'].errors['required']">Password is required</p>
+        <p *ngIf="control['password'].errors && control['password'].errors['minlength']">Password length must be minimum 8 characters </p>
+      </mat-error>
+    </mat-form-field>
+  </form>
+  <button (click)="login()" [disabled]="loginForm.invalid" mat-raised-button color="accent">Login</button>
+  <p class="mt-3">Or</p>
+  <button routerLink="/signup" class="mb-5" mat-raised-button color="primary">Create an account</button>
+</div>
